@@ -1,16 +1,10 @@
 #snake-container {
     margin: 0 auto;
     text-align: center;
+    width: 75em;
+    height: 50em;
 }
 
 #snake-canvas {
-    background-color: #fff;
-}
-
-body {
-    background-color: #333;
-}
-
-h1 {
-    color: #eee
+    background-color: #eee;
 }
