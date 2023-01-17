@@ -1,3 +1,4 @@
+window.addEventListener("load", function () {
 const canvas = document.getElementById('snake-canvas');
 const ctx = canvas.getContext('2d');
 
@@ -33,3 +34,4 @@ document.addEventListener('keydown', (event) => {
 });
 
 interval = setInterval(() => {update(); draw();}, 100);
+});
